@@ -1,8 +1,0 @@
-- hosts: localhost
-
-  vars:
-    terraform_version: 0.12.23
-    terraform_dir: /opt
-
-  roles:
-  - role: migibert.terraform
