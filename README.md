@@ -6,7 +6,7 @@ Terraform
 
 Ansible role to install Terraform on Linux machines.
 
-Install it with `ansible-galaxy install migibert.terraform`
+Install it with `ansible-galaxy install stem_sys.stem_terraform`
 
 Example Playbook
 -------------------------
@@ -16,15 +16,10 @@ Including an example of how to use your role (for instance, with variables passe
 ```
 - hosts: all
   roles:
-    - role: migibert.terraform
+    - role: stem_sys.stem_terraform
 ```
-
-License
--------
-
-MIT
 
 Author Information
 ------------------
 
-Mikael Gibert, Developer / DevOps.
+Scott Kenny
